@@ -11,55 +11,82 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <link href="./style.css" rel="stylesheet" />
     <title>Frontend Mentor | Article preview component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <section class="section-preview">
+    <article class="section-preview">
       <div class="container">
         <img
           src="./images/drawers.jpg"
           class="img-preview"
           alt="green cabinet"
         />
-        <div class="container">
-          <h3>
+        <div class="text-container">
+          <p class="preview-header">
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
-          </h3>
-          <p>
+          </p>
+          <p class="preview-text">
             Ever been in a room and felt like something was missing? Perhaps it
             felt slightly bare and uninviting. I’ve got some simple tips to help
             you make any room feel complete.
           </p>
-        </div>
-        <div class="article-attribuion">
-          <div class="article-author">
+          <div class="article-info">
             <img
               src="./images/avatar-michelle.jpg"
               class="img-avatar"
               alt="avatar of Michelle Appleton"
             />
-            <p>Michelle Appleton</p>
-            <br />
-            <p>28 Jun 2020</p>
+
+            <div class="article-author">
+              <p class="author-name">Michelle Appleton</p>
+              <p>28 Jun 2020</p>
+            </div>
+            <img
+              src="./images/icon-share.svg"
+              class="img-share"
+              alt="share arrow icon"
+            />
+            <div class="share-modal hidden">
+              <p class="share-text">Share</p>
+              <ul class="social-links">
+                <li>
+                  <a class="share-link"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-facebook"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a class="share-link"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a class="share-link"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-pinterest"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-
-    Share
+    </article>
 
     <div class="attribution">
       Challenge by
@@ -67,5 +94,13 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
