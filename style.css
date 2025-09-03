@@ -93,11 +93,20 @@ body {
 
 /* Share */
 
-.img-share {
+.img-wrapper {
   background-color: #ecf2f8;
   padding: 0.8rem;
   border-radius: 50%;
+  /* centers SVG */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
+}
+
+.svg-color {
+  background-color: #6e8098;
+  color: #fff;
 }
 
 /* Share Pop-up */
