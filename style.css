@@ -22,7 +22,7 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-/* Overall Container */
+/* Container */
 
 .container {
   display: flex;
@@ -31,7 +31,6 @@ body {
   max-width: 75rem;
   background-color: #fff;
   border-radius: 9px;
-  /* overflow: hidden; */
 }
 
 /* Image */
@@ -95,6 +94,12 @@ body {
 
 /* Share */
 
+.share-container {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+}
+
 .img-wrapper {
   background-color: #ecf2f8;
   padding: 0.8rem;
@@ -124,7 +129,6 @@ body {
   align-items: center;
   position: absolute;
   border-radius: 9px;
-
   top: 0;
   left: 50%;
   transform: translate(-50%, -150%);
@@ -165,10 +169,4 @@ body {
 
 .hidden {
   display: none;
-}
-
-.share-container {
-  position: relative;
-  display: inline-block;
-  margin-left: auto;
 }
