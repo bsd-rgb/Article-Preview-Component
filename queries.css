@@ -35,40 +35,36 @@
     align-items: center;
     max-width: 32rem;
     margin: 7rem auto;
+    gap: 0;
   }
 
   .wrapper {
     flex-basis: auto;
     max-width: 43rem;
     border-radius: 9px 9px 0 0;
+    height: 22rem;
   }
 
   .img-preview {
     transform: none;
+    width: 100%;
+    height: auto;
   }
 
   .text-container {
     padding: 2.6rem 3.6rem 2.6rem 2.6rem;
   }
+  .preview-header {
+    margin-bottom: 2.2rem;
+  }
+  .preview-text {
+    margin-bottom: 3.8rem;
+  }
 
   .share-modal {
-    /* 
-    position: absolute;position inside container 
-    bottom: 0; /* stick to the container’s bottom 
-    left: 0;
-    width: 100%; /* match container’s width 
-    height: 60px;
-    border-radius: 12px 12px 0 0;
-    transform: none; /* reset your translate 
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    gap: 1.2rem;
-    */
-
     bottom: 0;
     left: -10%;
-    top: 87%;
+    top: 84%;
     transform: translate(10%, 10%);
     width: 100%;
     padding: 3.6rem 2.6rem;
@@ -83,8 +79,13 @@
   .img-wrapper {
     z-index: 1;
     position: absolute;
-    top: 85%;
-    left: 70%;
+    top: 86%;
+    left: 76%;
     transform: translate(50%, 50%);
+  }
+  .img-wrapper.active {
+    top: 91.5%;
+    left: 82%;
+    transform: translate(0, 0);
   }
 }

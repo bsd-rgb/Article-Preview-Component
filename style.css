@@ -95,12 +95,6 @@ body {
 
 /* Share */
 
-/* .share-container {
-  position: relative;
-  display: inline-block;
-  margin-left: auto;
-} */
-
 .img-wrapper {
   background-color: #ecf2f8;
   padding: 0.8rem;
@@ -171,4 +165,8 @@ body {
 
 .hidden {
   display: none;
+}
+
+.position-inherit {
+  position: inherit;
 }
