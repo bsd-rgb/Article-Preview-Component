@@ -84,7 +84,7 @@
     transform: translate(50%, 50%);
   }
   .img-wrapper.active {
-    top: 91.5%;
+    top: 90.5%;
     left: 82%;
     transform: translate(0, 0);
   }

@@ -1,5 +1,4 @@
 "use strict";
-console.log("Hello world");
 
 const btnShare = document.querySelector(".img-share");
 const imgWrapper = document.querySelector(".img-wrapper ");
@@ -15,5 +14,3 @@ btnShare.addEventListener("click", function () {
     imgWrapper.classList.remove("active");
   }
 });
-
-//on click take away the position:absolute for the img-wrapper
