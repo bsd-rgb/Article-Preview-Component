@@ -41,8 +41,8 @@ Mobile:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/bsd-rgb/Article-Preview-Component](https://github.com/bsd-rgb/Article-Preview-Component)
+- Live Site URL: [https://bsd-rgb.github.io/Article-Preview-Component/](https://bsd-rgb.github.io/Article-Preview-Component/)
 
 ## My process
 
